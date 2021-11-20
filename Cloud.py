@@ -7,7 +7,7 @@ class Transferdata:
         f=open(source, 'rb')
         dbx.files_upload(f.read(), destination)
 def main():
-    accesstoken='48d2YqAobGIAAAAAAAAAAfCBXA-xN1ae4qaMTN3sPe3sMzH8-fra4AldWesSC7xP'
+    accesstoken=''
     td=Transferdata(accesstoken)
     filefrom = input("Enter the path of the file to trsnsfer: ")
     fileto = input("Enter the path of the file to upload: ")
